@@ -1,0 +1,30 @@
+.caja1{
+    width: 1280;
+    height: 20%;
+    
+}
+.caja2{
+    border-color: black;
+    width: 800px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px grey;
+}
+.Titulo{
+    text-align: center;
+}
+
+.cajaCrear{
+    width: 800;
+    text-align: center;
+}
+input[type=text]{
+    height: 30px;
+    border-radius: 15px;
+}
+input[type=submit]{
+    height: 30px;
+    border-radius: 15px;
+    background: rgba(239,197,202,1);
+    border: 0;
+}
+
