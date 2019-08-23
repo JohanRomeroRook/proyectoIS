@@ -14,7 +14,31 @@
     </head>
     <body>
         <div class="caja1">
-            <h1 class="Titulo">::Index::</h1>
+            <p>
+                <a href="./Jsp/persona_crear.jsp"><span>Inmobiliary</span> </a>
+                <nav>
+                    <ul>
+                            <li><a href="#">View</a></li>
+                            <li class="drop">
+                                    <a href="#">You</a>
+
+                                    <div class="dropdownContain">
+                                            <div class="dropOut">
+                                                    <div class="triangle"></div>
+                                                    <ul>
+                                                            <li>Plan</li>
+                                                            <li>Account Settings</li>
+                                                            <li>Switch Account</li>
+                                                            <li>Sign Out</li>
+                                                    </ul>
+                                            </div>
+                                    </div>
+
+                            </li>
+                            <li><a href="#">Help</a></li>
+                    </ul>
+                </nav>
+            </p>
         </div> 
         <div class="caja2">
             <ul class="nav">
