@@ -14,16 +14,44 @@
     </head>
     <body>
         <div class="caja1">
-            <h1 class="Titulo">::Crear Persona::</h1>
+            <h1 class="Titulo">Inmobiliaria</h1> 
+            <ul class="menu">
+               <li> <a href ="./Jsp/persona_crear.jsp">Crear Presona </a></li>
+               <li> <a href ="./Jsp/persona_crear.jsp">Usuarios</a></li>
+               <li> <a href ="./Jsp/persona_crear.jsp">¿Quienes somos?</a></li>
+               <li> <a href ="./Jsp/persona_crear.jsp"> Lista Clinton</a></li>
+               <li> <a href ="./Jsp/persona_crear.jsp">Contactanos</a></li>
+               <li> <a href ="./Jsp/persona_crear.jsp">Servicios</a></li> 
+            </ul> 
         </div>
-        <div class="cajaCrear">
+        <div class="caja2">
+            <h1 class="Titulo2">Llena el Formulario</h1> 
+           
             <form action="../Persona" method="post" >
-                <input type="text" name="nombre" PlaceHolder="Nombre"/>
-                <input type="text" name="apellido" PlaceHolder="Apellido"/>
-                <input type="submit" name="Enviar"/>
-
-                <a href="../index.jsp"><img src="../Imagenes/logout.png" alt=""/></a>
+ 
+                <label for="nombre">Nombres:</label>
+                <input type="text" name="nombre" PlaceHolder="Escribe tus Nombre" required>
+                
+                <label for="apellido">Apellidos:</label>
+                <input type="text" name="apellido" PlaceHolder="Escribe tus Apellidos" required>
+                
+                <label for="correo">Correo:</label>
+                <input type="text" class="correo" PlaceHolder="Escribe tu Correo" required>
+                
+                <label for="numero">Numero telefono.</label>
+                <input type="text" class="numero" PlaceHolder="Escribe tu Numero detelefono" required>
+                
+                <label for="#doc">Numero de documento:</label>
+                <input type="text" id="#doc" PlaceHolder="Escribe tu Numero documento" required> 
+                
+                <label for="mensaje">¿Que te interesa?:</label>
+                <textarea id="mensaje" PlaceHolder="Escribe tu Mensaje"/></textarea> 
+                
+                <input type="submit" name="Enviar">
+                <a href="../index.jsp">Volver</a>
             </form>        
-        </div>        
+               
+        </div>
+           
     </body>
 </html>
